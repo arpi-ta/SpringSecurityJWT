@@ -15,7 +15,7 @@ import java.util.function.Function;
 @Service
 public class JwtUtil {
 
-    private final String SECRET_KEY = "@rPlt@@d@rshm@ity|/|arpita|@rPlt@@d@rshm@ity|/|ikhil||arpita|arpita";
+    private final String SECRET_KEY = "=ikhilarpita=arpita==ikhil==arpita=arpita==ikhil==arpita=arpita=arpita=arpita==ikhil==arpita=arpita";
     SignatureAlgorithm signatureAlgorithm = SignatureAlgorithm.HS512;
 
     public String extractUsername(String token) {
